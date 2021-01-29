@@ -1,6 +1,6 @@
 <img alt="self-xsdsd-logo" src="https://self-xdsd.com/files/self-xdsd.png" width="80" height="80"/>
 
-# self-blog
+# Self XDSD Blog
 
 Blog of Self XDSD: https://blog.self-xdsd.com
 
