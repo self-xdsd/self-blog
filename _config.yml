@@ -1,0 +1,33 @@
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+paginate: 10
+paginate_path: "/page:num/"
+
+# Site settings
+title: Self XDSD Blog
+email: support@self-xdsd.com
+description: > # this means to ignore newlines until "baseurl:"
+  This the blog of Self XDSD. Posts will cover tips and tricks to get the most out of Self.
+url: https://blog.self-xdsd.com # the base hostname & protocol for your site
+twitter_username: SelfXdsd
+github_username:  self-xdsd
+
+include: ['.well-known']
+
+# Build settings
+timezone: Romania/Bucharest
+markdown: kramdown
+
+lsi: false
+safe: true
+whitelist:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+source: .
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false

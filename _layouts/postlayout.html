@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+    {% if page.shareable%}
+        <!-- facebook Javascript SDK-->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!-- Twitter JavascriptSDK-->
+        <script>
+          window.twttr = (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0],
+              t = window.twttr || {};
+              if (d.getElementById(id)) return t;
+              js = d.createElement(s);
+              js.id = id;
+              js.src = "https://platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js, fjs);
+              t._e = [];
+              t.ready = function(f) {
+                  t._e.push(f);
+              };
+             return t;
+          }(document, "script", "twitter-wjs"));
+        </script>
+        <!-- VKontakte JS SDK -->
+        <script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
+    {% endif %}
+    <div class="page-content">
+      <div class="wrapper">    <!-- Everything inside class "wrapper" so it is centered-->
+        <!--The POST CONTENT goes here, as defined in the post.html Layout-->
+        {{ content }}
+        <!--HERE embed the tweet and remark if they exist-->
+        {% if page.embeddedTweet and page.embeddedTweet != "" and page.embeddedTweet != nil %}
+            <div class="centered">
+                {{page.embeddedTweet}}
+            </div>
+        {% endif %}
+      </div>
+    </div>
+{% if page.comments %}
+    <div class="wrapper centered">
+          <p>
+            Use <a href="https://help.disqus.com/customer/portal/articles/665057-syntax-highlighting">syntax highlighting</a> in your comments, to make them
+            more readable.
+          </p>
+      </div>
+<div class="wrapper" id="disqus_thread"></div>
+    <script type="text/javascript">
+        if(!document.location.hostname.includes("localhost")) {
+          var disqus_shortname = 'amihaiemil';
+          var disqus_identifier = "{{ page.url }}";
+
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        }
+    </script>
+
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+{% endif %}
+    {% include footer.html %}
+    <script id="dsq-count-scr" src="//amihaiemil.disqus.com/count.js" async></script>
+    {% include includeIndex.js %}
+    <script
+        type="text/javascript"
+        id = "elnr-sw-script"
+        size="3"
+        placeholder="Enter keywords"
+        src="https://amihaiemil.com/js/elasticlunr/elasticlunr-search-widget.min.js"> <!--ElasticLunr Search Widget-->
+    </script>
+  </body>
+
+</html>

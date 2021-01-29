@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+    {% include includeIndex.js %}
+    <script
+        type="text/javascript"
+        id = "elnr-sw-script"
+        size="3"
+        placeholder="Enter keywords"
+        src="https://amihaiemil.com/js/elasticlunr/elasticlunr-search-widget.min.js"> <!--ElasticLunr Search Widget-->
+    </script>
+  </body>
+</html>
