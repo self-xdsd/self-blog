@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World!"
-date:   2021-01-29
+date:   2021-01-28
 tags: xdsd
 comments: true
 shareable: true
@@ -27,7 +27,7 @@ Self XDSD is a platform which implements the [XDSD](https://www.xdsd.org/) manag
 
 # The Need For Management
 
-There are countless tools which help distributed projects on Github or GitLab do their work in the most efficient way possible. However, we are not aware of any popular tool which actually automates the Project Management part. We are here to complement the pallette of tools that any successful project is using, by **bringing automated project management to the table**.
+There are countless tools which help distributed projects on Github or GitLab do their work in the most efficient way possible. However, we are not aware of any popular tool which actually automates the Project Management part. We are here to complement the palette of tools that any successful project is using, by **bringing automated project management to the table**.
 
 Our PM will take care of the following for you:
 
