@@ -59,7 +59,7 @@ That's it. From now own, the PM will watch your repository and will assign any I
 4. Issue is closed.
 5. The PM adds the Issue to the Contributor's **active Invoice**.
 
-Each Monday, the PM automatically pays Invoices which are over **108,00 EUR**. You can also make payments automatically, from the web UI, after an invoice's value exceeds 108 euros.
+Each Monday, the PM automatically pays Invoices which are over **108,00 EUR**. You can also make payments manually, from the web UI, after an invoice's value exceeds 108 euros.
 
 We use [Stripe](https://stripe.com) to provide payment functionality and our business model is quite simple: for each payment which goes to the contributors, we charge an **8% commission**. We charge the commission **only** for tasks (issues or pull requests) which are closed and invoiced.
 
