@@ -15,7 +15,7 @@ XDSD, **Puzzle Driven Development** ([XDSD whitepaper](https://www.xdsd.org/XDSD
 sound strange at first, you may have heard of the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) - they are almost
 synonyms.
 
-Let's see how microtasking works in XDSD.
+Let's see how microtasking works in Self XDSD.
 
 <figure class="articleimg">
  <img src="{{page.image}}" alt="The Self PM in Action." style="box-shadow: 2px 2px 2px 2px grey;">
