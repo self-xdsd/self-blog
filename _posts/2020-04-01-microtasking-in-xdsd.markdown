@@ -79,7 +79,7 @@ Finally, the software module is build like a puzzle, with all these small contri
 
 We built Self XDSD by following the XDSD methodology ourselves. Actually, we had a very early version of the chatbot PM which helped us (we can safely say that Self XDSD has successfully managed its own development).
 
-We found that developers who were on the team from the beginning were quite comfortable with this model, since they knew the codebase from the start. We had a few problems here and there mainly because they were providing Pull Requests which were too big (we recommend that PRs be no bigger than 5 changed files, including tests), but other than that everything went smoothly.
+We found that developers who were on the team from the beginning were quite comfortable with microtasking, since they knew the codebase from the start. We had a few problems here and there mainly because they were providing Pull Requests which were too big (we recommend that PRs be no bigger than 5 changed files, including tests), but other than that everything went smoothly.
 
 On the other hand, developers who joined the project later in its development were quite shocked. Their job was tougher because they had to learn the project and also get accustomed with the idea of microtasking. We solved this problem by providing a higher estimation (usually 2-3 hours) for their tickets. In general, we believe that anyone with at least one year of coding experience can do something valuable in 3 hours (and delegate the rest), no matter the project.
 
