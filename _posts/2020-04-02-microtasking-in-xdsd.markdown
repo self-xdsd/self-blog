@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Microtasking In XDSD"
-date:   2021-04-01
+date:   2021-04-02
 tags: xdsd
 comments: true
 shareable: true
 author: SelfXdsd
-preview: Introducing Self XDSD, the platform for automated management of distributed projects.
-image: https://blog.self-xdsd.com/images/home.png
+preview: Microtasking a.k.a. Puzzle Driven Development is an essential piece in XDSD.
+image: https://blog.self-xdsd.com/images/microtasking_xdsd.png
 ---
 
 The automation that Self XDSD provides is largely owed to a concept called **microtasking** or, in the terms introduced by
@@ -18,9 +18,9 @@ synonyms.
 Let's see how microtasking works in Self XDSD.
 
 <figure class="articleimg">
- <img src="{{page.image}}" alt="The Self PM in Action." style="box-shadow: 2px 2px 2px 2px grey;">
+ <img src="{{page.image}}" alt="TODOs as Issues" style="box-shadow: 2px 2px 2px 2px grey;">
  <figcaption>
- Our PMs report new Issues for each TODO they find in the code.
+ Code TODOs will become future Issues.
  </figcaption>
 </figure>
 
