@@ -73,7 +73,7 @@ another assignee for the newly created task. This cycle should be repeated until
 Developers can specify the estimation of the ``TODO``s they add. The minimum estimation is 15 minutes, while the maximum is 6 hours. This mechanism exists in order to
 accommodate new joiners (new developers on the team), for whom 60 minutes may be too little time to do anything. Once everyone is comfortable, we recommend to always go with the ``60 minutes`` estimation.
 
-Finally, the software module is build like a puzzle, with all these small contributions acting as its pieces, hence the name ``Puzzle Driven Development``.
+Finally, the software module is built like a puzzle, with all these small contributions acting as its pieces, hence the name ``Puzzle Driven Development``.
 
 # Can It Really Work?
 
