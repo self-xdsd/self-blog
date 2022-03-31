@@ -73,6 +73,6 @@ Self XDSD is already managing the development of a rather big software product: 
 
 # Give It A Spin
 
-This here was just a high-level overview and we know you probably have many questions. Check out the [documentation](https://docs.self-xdsd.com) for more details or join our [Telegram Group](https://t.me/joinchat/FWpjdxscN7kYhADoVtUV0A) and ask your question right there. We invite you to give Self XDSD a try and see how it works - the best way to discover the powers of any product is to use it.
+This here was just a high-level overview and we know you probably have many questions. Check out the [documentation](https://docs.self-xdsd.com) for more details and don't hesitate to ask your questions in the comments below. We invite you to give Self XDSD a try and see how it works - the best way to discover the powers of any product is to use it.
 
 All this being said, we are excited of this new journey and cannot wait to see how our users will benefit from using our platform.
