@@ -87,4 +87,4 @@ On the other hand, developers who joined the project later in its development we
 
 To wrap up, we hope that we provided a good explanation and overview of what is Microtasking. Feel free to go through [our documentation on the subject](https://docs.self-xdsd.com/microtasking.html) which is more concise and provides another real-life example from our own codebase.
 
-If you have any questions, don't hesitate to ask them in the comments bellow or join our [Telegram Group](https://t.me/joinchat/FWpjdxscN7kYhADoVtUV0A) and ask someone there.
+If you have any questions, don't hesitate to ask them in the comments bellow and we'll be happy to answer. :)
